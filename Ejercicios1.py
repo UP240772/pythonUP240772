@@ -54,7 +54,7 @@ import math
 punto1 = (2, 2)
 punto2 = (6, 10)
 
-#Calcular la pendiente (m)
+#Calcular pendiente (m)
 y2, y1 = punto2[1], punto1[1]
 x2, x1 = punto2[0], punto1[0]
 pendiente = (y2 - y1) / (x2 - x1)
@@ -79,4 +79,12 @@ afirmacion_falsa = longitud1 > longitud2  # Aquí hacemos una afirmación falsa
 print(f"Longitud de 'python': {longitud1}")
 print(f"Longitud de 'dragon': {longitud2}")
 print(f"Afirmación falsa (python es más largo que dragon): {afirmacion_falsa}")
+
+# Definir las palabras
+palabra1 = 'python'
+palabra2 = 'dragon'
+# Comprobar si 'on' se encuentra en ambas palabras
+subcadena = 'on'
+resultado = (subcadena in palabra1) and (subcadena in palabra2)
+print(f"¿La subcadena '{subcadena}' se encuentra en ambas palabras? {resultado}")
 
