@@ -54,7 +54,7 @@ import math
 punto1 = (2, 2)
 punto2 = (6, 10)
 
-Calcular la pendiente (m)
+#Calcular la pendiente (m)
 y2, y1 = punto2[1], punto1[1]
 x2, x1 = punto2[0], punto1[0]
 pendiente = (y2 - y1) / (x2 - x1)
@@ -62,5 +62,21 @@ pendiente = (y2 - y1) / (x2 - x1)
 #Calcular la distancia euclidiana
 distancia = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
 
-print(f"Pendiente: {pendiente}")
-print(f"Distancia euclidiana: {distancia}")
+print("Pendiente: ", pendiente)
+print("Distancia euclidiana:", distancia)
+
+# Definir las palabras
+palabra1 = 'python'
+palabra2 = 'dragon'
+
+# Encontrar la longitud de cada palabra
+longitud1 = len(palabra1)
+longitud2 = len(palabra2)
+
+# Hacer una afirmación de comparación falsa
+afirmacion_falsa = longitud1 > longitud2  # Aquí hacemos una afirmación falsa
+
+print(f"Longitud de 'python': {longitud1}")
+print(f"Longitud de 'dragon': {longitud2}")
+print(f"Afirmación falsa (python es más largo que dragon): {afirmacion_falsa}")
+
