@@ -10,7 +10,7 @@ z = 4 +3j
 #Escribe un scrip que solicite al usuario ingresar la base y altura del triangulo y calcular el area de este triangulo
 base = float(input("Ingrese la longitud de la base: "))
 altura = float(input("Ingrese la altura del triangulo: "))
-area = 0.5 * base * altura
+
 print("El area del triangulo es de: ", area)
 
 #Perimetro de un triangulo
