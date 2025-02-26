@@ -153,4 +153,47 @@ ResultadoDivision = 7 // 3
 ValorEntero = int(2.7)
 SonIguales = ResultadoDivision == ValorEntero
 print(float("¿La division es igual al valor entero convertido de 2.7", SonIguales))
+
+
+# Definir las variables
+cadena = '10'
+entero = 10
+
+# Comprobar si los tipos son iguales
+tipos_iguales = type(cadena) == type(entero)
+
+# Imprimir el resultado
+print(f'¿El tipo de "10" es igual al tipo de 10? {tipos_iguales}')
+
+
+#Comprueba si int(9.8) es igual a 10
+Valor_Entero = int("9.81")
+ValorEsperado = 10
+EsIgual = Valor_Entero == ValorEsperado
+print(float("¿El valor entero es igual a 10? ", EsIgual))
+
+
+#Salario
+HorasTrabajadas = float(input("Ingrese las horas trabajadas: "))
+TarifaPorHora = float(input("Ingrese su tarifa por hora: "))
+Salario = HorasTrabajadas * TarifaPorHora
+print("Su salario es de: ", Salario)
+
+
+#Segundos que puede vivir
+Años = float(input("Ingrese la cantidad de años que ha vivido"))
+Segundos = Años * 31,622,400 
+print ("Usted ha vivido esta cantidad de segundos: ", Segundos)
+
+
+#TABLA
+# Imprimir la cabecera de la tabla
+print('Número | n^0 | n^1 | n^2 | n^3')
+
+# Generar y mostrar la tabla
+for n in range(1, 6):
+    fila = f'{n}     | {n**0}   | {n**1}   | {n**2}   | {n**3}'
+    print(fila)
+
+
 #DIA 4
