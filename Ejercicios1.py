@@ -107,3 +107,43 @@ oracion = 'Espero que este curso no esté lleno de jerga.'
 # Verificar si contiene jerga
 resultado = contiene_jerga(oracion, lista_jerga)
 print("¿La oración contiene jerga?", resultado)
+
+palabra1 = 'dragon'
+palabra2 = 'python'
+subcadena = 'on'
+
+# Verificar si la subcadena está en ambas palabras
+presente_en_ambas = subcadena in palabra1 and subcadena in palabra2
+
+print(f'¿La subcadena "{subcadena}" está en ambas palabras? {presente_en_ambas}')
+
+# Texto
+texto = 'Python'
+
+# Encontrar la longitud del texto
+longitud = len(texto)
+
+# Convertir la longitud a flotante
+longitud_flotante = float(longitud)
+
+# Convertir el valor flotante a cadena
+longitud_cadena = str(longitud_flotante)
+
+# Imprimir el resultado
+print(f'Longitud del texto: {longitud}')
+print(f'Longitud como flotante: {longitud_flotante}')
+print(f'Longitud como cadena: {longitud_cadena}')
+
+def es_par(numero):
+    if numero % 2 == 0:
+        return True
+    else:
+        return False
+
+# Ejemplo de uso
+numero = 10
+if es_par(numero):
+    print(f'{numero} es un número par.')
+else:
+    print(f'{numero} es un número impar.')
+
