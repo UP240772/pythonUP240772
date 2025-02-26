@@ -90,7 +90,10 @@ subcadena = 'on'
 resultado = (subcadena in palabra1) and (subcadena in palabra2)
 print(f"¿La subcadena '{subcadena}' se encuentra en ambas palabras? {resultado}")
 
-
+#Espero que este curso no esté lleno de jerga . Utilice el operador in para comprobar si hay jerga en la oración.
+Frase = "Espero que este curso no esté lleno de jerga"
+print ("Hay Jerga" in Frase) #True
+print ("No hay jerga" in Frase) #False
 
 palabra1 = 'dragon'
 palabra2 = 'python'
