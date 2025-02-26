@@ -147,3 +147,5 @@ if es_par(numero):
 else:
     print(f'{numero} es un número impar.')
 
+
+#DIA 4
