@@ -90,25 +90,7 @@ subcadena = 'on'
 resultado = (subcadena in palabra1) and (subcadena in palabra2)
 print(f"¿La subcadena '{subcadena}' se encuentra en ambas palabras? {resultado}")
 
-def contiene_jerga(oracion, jerga):
-    # Dividir la oración en palabras
-    palabras = oracion.lower().split()
-    
-    # Comprobar si alguna palabra de jerga está en la oración
-    for palabra in jerga:
-        if palabra.lower() in palabras:
-            return True
-    return False
 
-# Lista de palabras de jerga
-lista_jerga = ['jerga', 'otra_palabra_de_jerga', 'mas_palabras']
-
-# Oración a comprobar
-oracion = 'Espero que este curso no esté lleno de jerga.'
-
-# Verificar si contiene jerga
-resultado = contiene_jerga(oracion, lista_jerga)
-print("¿La oración contiene jerga?", resultado)
 
 palabra1 = 'dragon'
 palabra2 = 'python'
