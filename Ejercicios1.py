@@ -31,39 +31,41 @@ radio = float(input("Ingrese la radio del circulo"))
 areaDelCirculo = 3,14 * radio **2
 Circunferencia = 2 * 3,14 * radio
 
-# Definir la ecuación
-def calcular_pendiente_intersecciones():
-    # La ecuación es y = mx + b, donde m es la pendiente y b es la intersección con el eje y
-    m = 2  # Pendiente
-    b = -2  # Intersección con el eje y
-
-    # La intersección con el eje x ocurre cuando y = 0
-    # 0 = 2x - 2 => x = b / m
-    x_interseccion = -b / m
-
-    print(f"Pendiente (m): {m}")
-    print(f"Intersección con el eje y (b): {b}")
-    print(f"Intersección con el eje x: {x_interseccion}")
-
-# Llamar a la función
-calcular_pendiente_intersecciones()
-
 import math
 
-# Definir los puntos
-punto1 = (2, 2)
-punto2 = (6, 10)
+# Parte 1: Ecuación de la recta y = 2x - 2
+m = 2  # Pendiente
+interseccion_y = -2  # Intersección con el eje y
+interseccion_x = -interseccion_y / m  # Intersección con el eje x
 
-#Calcular pendiente (m)
-y2, y1 = punto2[1], punto1[1]
-x2, x1 = punto2[0], punto1[0]
+print(f'Pendiente: {m}')
+print(f'Intersección con el eje y: {interseccion_y}')
+print(f'Intersección con el eje x: {interseccion_x}')
+
+# Parte 2: Calcular la pendiente y la distancia euclidiana entre (2,2) y (6,10)
+x1, y1 = 2, 2
+x2, y2 = 6, 10
+
+# Calcular la pendiente
 pendiente = (y2 - y1) / (x2 - x1)
 
-#Calcular la distancia euclidiana
+# Calcular la distancia euclidiana
 distancia = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
 
-print("Pendiente: ", pendiente)
-print("Distancia euclidiana:", distancia)
+print(f'Pendiente entre los puntos (2,2) y (6,10): {pendiente}')
+print(f'Distancia euclidiana entre los puntos (2,2) y (6,10): {distancia}')
+
+# Parte 3: Comparar las pendientes
+pendiente_ecuacion = m
+pendiente_puntos = pendiente
+
+print(f'La pendiente de la ecuación y = 2x - 2 es {pendiente_ecuacion}')
+print(f'La pendiente entre los puntos (2,2) y (6,10) es {pendiente_puntos}')
+
+if pendiente_ecuacion == pendiente_puntos:
+    print('Las pendientes son iguales.')
+else:
+    print('Las pendientes son diferentes.')
 
 # Definir las palabras
 palabra1 = 'python'
