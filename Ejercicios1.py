@@ -147,5 +147,10 @@ if es_par(numero):
 else:
     print(f'{numero} es un número impar.')
 
+#DIVISION DEL PISO 7 POR 3
 
+ResultadoDivision = 7 // 3
+ValorEntero = int(2.7)
+SonIguales = ResultadoDivision == ValorEntero
+print(float("¿La division es igual al valor entero convertido de 2.7", SonIguales))
 #DIA 4
