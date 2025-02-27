@@ -59,3 +59,11 @@ A1 = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
 print(A1.split())
 A1 = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
 print(A1.split(" , "))
+
+#¿Cuál es el carácter en el índice 0 en la cadena Codificación para todos ?
+Frase = "Codificacion para todos"
+print(Frase[0])
+
+#¿Cuál es el último índice de la cadena Codificación Para Todos .
+Frase = "Codificacion para todos"
+print(Frase[22])
