@@ -28,3 +28,8 @@ print(Empresa.upper())
 
 #Cambie todos los caracteres a letras minúsculas utilizando el método lower() .
 print(Empresa.lower())
+
+#Utilice los métodos capitalize(), title(), swapcase() para formatear el valor de la cadena Coding For All .
+print(Frase.capitalize())
+print(Frase.title())
+print(Frase.swapcase())
