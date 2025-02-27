@@ -55,3 +55,7 @@ Cadena = "Codificacion, para, todos"
 print(Cadena.split(" , "))
 
 #"Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" divide la cadena en la coma.
+A1 = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(A1.split())
+A1 = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(A1.split(" , "))
