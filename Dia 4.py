@@ -33,3 +33,25 @@ print(Empresa.lower())
 print(Frase.capitalize())
 print(Frase.title())
 print(Frase.swapcase())
+
+#Recortar (cortar) la primera palabra de la cadena Codificación para todos .
+Destajada = Empresa[12:]
+print(Destajada)
+
+#Compruebe si la cadena Codificación Para Todos contiene una palabra Codificación utilizando el método index, find u otros métodos.
+Subcadena = Frase
+print(Subcadena.find("Codificacion")) #1
+
+#Reemplace la palabra codificación en la cadena 'Codificación para todos' por Python.
+print(Empresa.replace("Codificacion", "Python"))
+
+#Cambie Python para todos a Python para todos utilizando el método de reemplazo u otros métodos.
+print(Empresa.replace("Codificacion para todos", "Python para todos"))
+
+#Divida la cadena 'Coding For All' usando el espacio como separador (split()).
+Cadena = Frase
+print(Cadena.split())
+Cadena = "Codificacion, para, todos"
+print(Cadena.split(" , "))
+
+#"Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" divide la cadena en la coma.
