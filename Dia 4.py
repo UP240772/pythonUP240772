@@ -73,3 +73,38 @@ Frase = "Codificacion para todos"
 print(Frase[10])
 
 #Crea un acrónimo o una abreviatura para el nombre 'Python para todos'
+Acronimo = "PPT"
+
+#Crea un acrónimo o una abreviatura para el nombre 'Coding For All'.
+Acronimo = "CFA"
+
+#Utilice el índice para determinar la posición de la primera aparición de C en Codificación para todos.
+Frase = "Codificacion para todos"
+print(Frase.find("C"))
+
+#Utilice el índice para determinar la posición de la primera aparición de F en Codificación para todos.
+Frase = "Codificacion para todos"
+print(Frase.find("f"))
+
+#Utilice rfind para determinar la posición de la última aparición de l en Coding For All People.
+Frase = "Codificacion para todos"
+print(Frase.rfind("i"))
+
+#Utilice index o find para encontrar la posición de la primera aparición de la palabra 'because' en la siguiente oración
+#'No puedes terminar una oración con porque porque porque es una conjunción'
+Frase = "No puedes terminar una oración con porque porque porque es una conjunción"
+print(Frase.find("porque"))
+
+#Utilice rindex para encontrar la posición de la última aparición de la palabra porque en la siguiente oración
+#'No puedes terminar una oración con porque porque porque es una conjunción'
+Frase = 'No puedes terminar una oración con porque porque porque es una conjunción'
+print(Frase.rfind("porque"))
+
+#Elimina la frase 'porque porque porque' en la siguiente oración:
+#'No puedes terminar una oración con porque porque porque es una conjunción'
+Frase =  'No puedes terminar una oración con porque porque porque es una conjunción'
+print("Frase")
+primer_porque = Frase [0:31]
+print(primer_porque)
+ultimo_porque = Frase [54:]
+print(ultimo_porque) 
