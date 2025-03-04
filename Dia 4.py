@@ -122,3 +122,14 @@ primer_porque = Frase [0:31]
 print(primer_porque)
 ultimo_porque = Frase [54:]
 print(ultimo_porque)
+
+#¿''Coding For All' comienza con una subcadena Coding ?
+Frase = "Codificacion para todos"
+print(Frase.startswith("Codificacion"))
+
+#¿'Coding For All' termina con una subcadena 'coding '?
+Frase = "Codificacion para todos"
+print(Frase.endswith("Codificacion"))
+
+#'Codificación para todos', elimina los espacios finales izquierdo y derecho en la cadena dada.
+Frase = "Codificacion para todos"
