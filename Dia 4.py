@@ -167,4 +167,20 @@ area = 3.14 * radius ** 2
 formated_string = 'The area of circle with a radius %d is %.2f.' %(radius, area)
 print(formated_string)
 
-#
+#Realice lo siguiente utilizando métodos de formato de cadena:
+#8 + 6 = 14
+#8 - 6 = 2
+#8 * 6 = 48
+#8 / 6 = 1.33
+#8 % 6 = 2
+#8 // 6 = 1
+#8 ** 6 = 262144
+a = 8
+b = 6
+suma = a + b
+resta = a - b
+Multiplicacion = a * b
+Division = a / b
+Porcentaje = a % b
+Potencia = a ** b
+Divf = a // b
