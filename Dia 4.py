@@ -67,3 +67,9 @@ print(Frase[0])
 #¿Cuál es el último índice de la cadena Codificación Para Todos .
 Frase = "Codificacion para todos"
 print(Frase[22])
+
+#¿Qué carácter está en el índice 10 en la cadena "Codificación para todos"?
+Frase = "Codificacion para todos"
+print(Frase[10])
+
+#Crea un acrónimo o una abreviatura para el nombre 'Python para todos'
