@@ -178,9 +178,6 @@ print ("Usted ha vivido esta cantidad de segundos: ", Segundos)
 print('Número | n^0 | n^1 | n^2 | n^3')
 
 # Generar y mostrar la tabla
-for n in range(1, 6):
-    fila = f'{n}     | {n**0}   | {n**1}   | {n**2}   | {n**3}'
-    print(fila)
 
 
 #DIA 4
