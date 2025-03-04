@@ -135,6 +135,12 @@ print(Frase.endswith("Codificacion"))
 Frase = "      Codificacion para todos      "
 print(Frase.strip("       "))
 
-#'Codificación para todos', elimina los espacios finales izquierdo y derecho en la cadena dada.
+#¿Cuál de las siguientes variables devuelve Verdadero cuando usamos el método isidentifier()?
 #30 días de Python
 #Treinta días de Python
+Frase = "30 dias de Python"
+print(Frase.isidentifier())
+Frase = "Treinta dias de Python"
+print(Frase.isidentifier())
+
+#
