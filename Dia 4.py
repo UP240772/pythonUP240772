@@ -143,4 +143,28 @@ print(Frase.isidentifier())
 Frase = "Treinta dias de Python"
 print(Frase.isidentifier())
 
+#La siguiente lista contiene los nombres de algunas bibliotecas de Python: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Únase a la lista con un hash con una cadena de espacios.
+lib =  ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+Resultado = " # ".join(lib)
+print(Resultado)
+
+#Utilice la secuencia de escape de nueva línea para separar las siguientes oraciones.
+#I am enjoying this challenge.
+#I just wonder what is next.
+print("I\nam\nenjoying\nthis\nchallenge.")
+print("I\njust\nwonder\nwhat\nis\nnext.")
+
+#Utilice una secuencia de escape de tabulación para escribir las siguientes líneas.
+#Name      Age     Country   City
+#Asabeneh  250     Finland   Helsinki
+print("Name\tAge\tCountry\tCity")
+print("Asabeneh\t250\tFinland\tHelsinki")
+
+#Utilice el método de formato de cadena para mostrar lo siguiente:
+radius = 10
+area = 3.14 * radius ** 2
+#The area of a circle with radius 10 is 314 meters square.
+formated_string = 'The area of circle with a radius %d is %.2f.' %(radius, area)
+print(formated_string)
+
 #
