@@ -132,4 +132,9 @@ Frase = "Codificacion para todos"
 print(Frase.endswith("Codificacion"))
 
 #'Codificación para todos', elimina los espacios finales izquierdo y derecho en la cadena dada.
-Frase = "Codificacion para todos"
+Frase = "      Codificacion para todos      "
+print(Frase.strip("       "))
+
+#'Codificación para todos', elimina los espacios finales izquierdo y derecho en la cadena dada.
+#30 días de Python
+#Treinta días de Python
