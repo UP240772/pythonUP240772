@@ -108,3 +108,10 @@ primer_porque = Frase [0:31]
 print(primer_porque)
 ultimo_porque = Frase [54:]
 print(ultimo_porque) 
+
+#Encuentra la posición de la primera aparición de la palabra 'porque' en la siguiente oración: 
+#'No puedes terminar una oración con porque porque porque es una conjunción'
+Frase = 'No puedes terminar una oración con porque porque porque es una conjunción'
+print(Frase.find("porque"))
+
+#
