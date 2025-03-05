@@ -45,4 +45,8 @@ ItCompanies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Ama
 ItCompanies.insert(2, "TI")
 
 #Cambie uno de los nombres de it_companies a mayúsculas (¡IBM excluido!)
+print(ItCompanies[0].upper())
+
+#Unir it_companies con una cadena '#; '
+
 
