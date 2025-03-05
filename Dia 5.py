@@ -96,3 +96,14 @@ del ItCompanies
 #Únete a las siguientes listas:
 front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 back_end = ['Node','Express', 'MongoDB']
+FrontEnd_BackEnd = front_end + back_end
+print(FrontEnd_BackEnd)
+
+#Después de unir las listas en la pregunta 26. Copie la lista unida y asígnela a una variable full_stack, luego inserte Python y SQL después de Redux.
+ItCompaniesCopia = ItCompanies.copy()
+FullStack = ItCompaniesCopia
+FullStack.insert(5, "Python")
+print(FullStack)
+FullStack.insert(6, "SQL")
+print(FullStack)
+
