@@ -48,5 +48,51 @@ ItCompanies.insert(2, "TI")
 print(ItCompanies[0].upper())
 
 #Unir it_companies con una cadena '#; '
+Unir = "#; ".join(ItCompanies)
+print(Unir)
 
+#Comprueba si una determinada empresa existe en la lista it_companies.
+SiExiste =  "Google" in ItCompanies
+print(SiExiste)
 
+#Ordenar la lista usando el método sort()
+ItCompanies.sort()  
+print(ItCompanies)
+
+#Invierta la lista en orden descendente utilizando el método reverse()
+ItCompanies.sort(reverse=True)
+print(ItCompanies)
+
+#Separa las primeras 3 empresas de la lista.
+Facebook_Google_Microsoft = ItCompanies[0:2]
+print(Facebook_Google_Microsoft)
+
+#Elimina las últimas 3 empresas de la lista.
+ItCompanies.remove("IBM", "Oracle", "Amazon")
+print(ItCompanies)
+
+#Elimina de la lista las empresas de TI intermedias
+ItCompanies.remove("Apple")
+print(ItCompanies)
+
+#Eliminar la primera empresa de TI de la lista
+ItCompanies.remove("Facebook")
+print(ItCompanies)
+
+#Eliminar la o las empresas de TI intermedias de la lista
+ItCompanies.remove("Apple", "Microsoft")
+print(ItCompanies)
+
+#Eliminar la última empresa de TI de la lista
+ItCompanies.remove("Amazon")
+print(ItCompanies)
+
+#Eliminar todas las empresas de TI de la lista
+del ItCompanies [0:6]
+
+#Destruir la lista de empresas de TI
+del ItCompanies
+
+#Únete a las siguientes listas:
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
