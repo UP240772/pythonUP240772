@@ -11,7 +11,7 @@ print(len(Frutas))
 #Obtener el primer elemento, el elemento del medio y el último elemento de la lista.
 PrimerElemento = Frutas[0]
 SegundoElemento = Frutas[3]
-TercerElemento = Frutas[5]
+TercerElemento = Frutas[4]
 
 #Declara una lista llamada mixed_data_types, pon tu(nombre, edad, altura, estado civil, dirección)
 MixedDataTypes = ["Christian", "18 Años", "1.72 m", "Soltero", "Laureles del sur"]
@@ -28,7 +28,7 @@ print(len(ItCompanies))
 #Imprima la primera, la segunda y la última empresa.
 PrimeroEmp = ItCompanies [0]
 SegundaEmp = ItCompanies [2]
-TerceraEmp = ItCompanies [7]
+TerceraEmp = ItCompanies [6]
 print(PrimeroEmp, SegundaEmp, TerceraEmp)
 
 #Imprima el listado después de modificar una de las empresas
@@ -68,7 +68,9 @@ Facebook_Google_Microsoft = ItCompanies[0:2]
 print(Facebook_Google_Microsoft)
 
 #Elimina las últimas 3 empresas de la lista.
-ItCompanies.remove("IBM", "Oracle", "Amazon")
+ItCompanies.remove("IBM")
+ItCompanies.remove("Oracle")
+ItCompanies.remove("Amazon")
 print(ItCompanies)
 
 #Elimina de la lista las empresas de TI intermedias
@@ -120,3 +122,4 @@ print(edades)
 edades.insert(10, "26")
 
 #Encuentra la edad media (un elemento intermedio o dos elementos intermedios divididos por dos)
+Print(len(edades))
