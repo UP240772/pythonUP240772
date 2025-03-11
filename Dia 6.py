@@ -35,3 +35,14 @@ print(Papás)
 print(Camaradas)
 
 #Crea tuplas de frutas, verduras y productos animales. Une las tres tuplas y asígnalas a una variable llamada food_stuff_tp.
+Frutas = ("Manzana", "Pera", "Melon", "Sandia")
+Verduras = ("Zanahoria", "Calabaza", "Tomate", "Jitomate")
+ProductosAnimales = ("Leche", "Queso", "Carne", "Seso")
+food_stuff_tp = (Frutas + Verduras + ProductosAnimales)
+print (food_stuff_tp)
+
+#Cambie la tupla about food_stuff_tp a una lista food_stuff_lt
+food_stuff_lt = (Frutas + Verduras + ProductosAnimales)
+print(food_stuff_lt)
+
+#Extraiga el elemento o los elementos del medio de la tupla food_stuff_tp o de la lista food_stuff_lt.
