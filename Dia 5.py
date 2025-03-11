@@ -82,11 +82,10 @@ ItCompanies.remove("Facebook")
 print(ItCompanies)
 
 #Eliminar la o las empresas de TI intermedias de la lista
-ItCompanies.remove("Apple", "Microsoft")
+ItCompanies.remove("Microsoft")
 print(ItCompanies)
 
 #Eliminar la última empresa de TI de la lista
-ItCompanies.remove("Amazon")
 print(ItCompanies)
 
 #Eliminar todas las empresas de TI de la lista
@@ -122,4 +121,4 @@ print(edades)
 edades.insert(10, "26")
 
 #Encuentra la edad media (un elemento intermedio o dos elementos intermedios divididos por dos)
-Print(len(edades))
+print(len(edades))
