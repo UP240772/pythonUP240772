@@ -67,3 +67,5 @@ nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
 print("Estonia" in nordic_countries)
 ##Comprueba si 'Islandia' es un país nórdico
 print("Islandia" in nordic_countries)
+
+##FIN
