@@ -2,7 +2,6 @@
 
 #Find the length of the set it_companies
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
-len(it_companies)
 print(len(it_companies))
 
 #Add 'Twitter' to it_companies
@@ -69,6 +68,11 @@ del BA
 age = [22, 19, 24, 25, 26, 24, 25, 24]
 st = set(age)
 print(st)
+LongitudSt = len(st)
+LongitudAges = len(age)
+MásGrande = LongitudSt.symmetric_difference(LongitudAges)
+
+
 
 
 
