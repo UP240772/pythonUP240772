@@ -70,7 +70,7 @@ st = set(age)
 print(st)
 LongitudSt = len(st)
 LongitudAges = len(age)
-MásGrande = LongitudSt.symmetric_difference(LongitudAges)
+
 
 #Explique la diferencia entre los siguientes tipos de datos: cadena, lista, tupla y conjunto
 print("La cadena es una secuencia de caracteres")
