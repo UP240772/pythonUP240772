@@ -72,6 +72,15 @@ LongitudSt = len(st)
 LongitudAges = len(age)
 MásGrande = LongitudSt.symmetric_difference(LongitudAges)
 
+#Explique la diferencia entre los siguientes tipos de datos: cadena, lista, tupla y conjunto
+print("La cadena es una secuencia de caracteres")
+print("La lista es una coleccion ordenada y mutable de elementos")
+print("La tupla es una coleccion de elementos ordenada, similar a una lista, pero es inmutable")
+print("El set es una coleccion desordenada de elementos unicos")
+
+#¿Cuántas palabras únicas se han utilizado en la oración? Utilice los métodos de división y de configuración para obtener las palabras únicas.
+##Soy profesor y me encanta inspirar y enseñar a la gente
+
 
 
 
