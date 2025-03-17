@@ -70,7 +70,7 @@ st = set(age)
 print(st)
 LongitudSt = len(st)
 LongitudAges = len(age)
-
+st.difference(age)
 
 #Explique la diferencia entre los siguientes tipos de datos: cadena, lista, tupla y conjunto
 print("La cadena es una secuencia de caracteres")
