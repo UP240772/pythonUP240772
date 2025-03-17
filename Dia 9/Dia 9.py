@@ -4,3 +4,7 @@ if Edad < 18:
     print("No tienes edad suficiente para aprender a conducir")
 else:
     print("Tienes la edad suficiente para aprender a conducir")
+
+#¿Quiene es mayor?
+TuEdad = float(input("Ingresa tu edad: "))
+MiEdad= 18
