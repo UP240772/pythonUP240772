@@ -7,7 +7,15 @@ else:
 
 #¿Quien es mayor?
 TuEdad = float(input("Ingresa tu edad: "))
-MiEdad= 18
+MiEdad= float(input("Ingresa tu edad: "))
+if MiEdad == TuEdad: 
+    print("Tenemos la misma edad")
+elif MiEdad > TuEdad:
+    Dif = MiEdad - TuEdad
+    if Dif:
+        print("Tienes", Dif, "años más que yo")
+else:
+    print("El es", TuEdad - MiEdad, "años grande que tu")
 #Obtener 2 numeros del usuario
 a = float(input("Ingrese el primer numero: "))
 b = float(input("Ingrese el segundo numero: "))
