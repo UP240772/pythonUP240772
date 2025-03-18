@@ -10,3 +10,12 @@ TuEdad = float(input("Ingresa tu edad: "))
 MiEdad= 18
 
 #Obtener 2 numeros del usuario
+a = float(input("Ingrese el primer numero: "))
+b = float(input("Ingrese el segundo numero: "))
+# syntax
+if a < b:
+    print("a es menor a b")
+elif a > b:
+    print("a es mayor a b")
+else:
+    print("a es igual a b")
