@@ -8,3 +8,5 @@ else:
 #¿Quiene es mayor?
 TuEdad = float(input("Ingresa tu edad: "))
 MiEdad= 18
+
+#Obtener 2 numeros del usuario
