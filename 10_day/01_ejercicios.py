@@ -17,3 +17,7 @@ contar = 0
 while contar > 11:
     print(contar)
     contar = contar - 1
+
+#Escriba un bucle que realice siete llamadas a print(), de modo que obtengamos en la salida el siguiente triángulo:
+for i in range(1, 8):
+    print('#' * i)
