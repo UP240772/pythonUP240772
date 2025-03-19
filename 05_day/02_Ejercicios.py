@@ -32,6 +32,8 @@ print(diferiencia)
 
 print("Ejercicio 2")
 #Find the middle country(ies) in the countries list
+
+#Guarda esta lista en un archivo diferente llamado countries.py para su uso en el futuro.
 countries_list=['Afghanistan',
  'Albania',
   'Algeria',
