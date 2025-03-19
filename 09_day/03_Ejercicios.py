@@ -24,16 +24,17 @@ if "skills" in person:
 else:
     print("Error")
 #* If a person skills has only JavaScript and React, print('He is a front end developer'), if the person skills has Node, Python, MongoDB, print('He is a backend developer'), if the person skills has React, Node and MongoDB, Print('He is a fullstack developer'), else print('unknown title') - for more accurate results more conditions can be nested!
-if "skills" in person:
-    Habilidades = person['skills']
-    if set(Habilidades) == {{'JavaScript', 'React'}}:
-        print("El es desarrollador Front-end")
-    elif set(Habilidades) >= {'Node', 'Python', 'MongoDB'}:
-        print("El es desarrollador back-end")
-    elif set(Habilidades) >= {'React', 'Node', 'MongoDB'}:
-        print("Es el desarrolador Full-Stack")
+if 'skills' in person:
+    skills = person['skills']
+    if set(skills) == {'JavaScript', 'React'}:
+        print('He is a front end developer')
+    elif set(skills) >= {'Node', 'Python', 'MongoDB'}:
+        print('He is a backend developer')
+    elif set(skills) >= {'React', 'Node', 'MongoDB'}:
+        print('He is a fullstack developer')
     else:
-        print("Titulo desconocido")
+        print('unknown title')
 #* If the person is married and if he lives in Finland, print the information in the following format: 
+#    Asabeneh Yetayeh lives in Finland. He is married.
 if person.get('is_married') and person.get('country') == 'Finland':
-    print(f"{person['first_name']} {person['last_name']} lives in {person['country']}. He is married.")
+    print(person["first_name"], person['last_name'], "lives", "in", person["country"], "He is married")
