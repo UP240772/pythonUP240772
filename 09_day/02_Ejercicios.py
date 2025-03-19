@@ -33,4 +33,6 @@ elif Mes in ["Junio", "Julio", "Agosto"]:
 else:
     print("No existe")
 #La siguiente lista contiene algunas frutas:
+#Si la fruta no existe en la lista, se agrega e imprime la modificada
+#Si la fruta si existe, imprime que ya está en la lista
 fruits = ['banana', 'orange', 'mango', 'lemon']
