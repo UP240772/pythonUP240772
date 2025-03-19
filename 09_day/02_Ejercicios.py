@@ -41,4 +41,4 @@ if chckfruit in fruits:
     print("Esa fruta ya existe en la lista")
 else:
     fruits.append(chckfruit)
-    print(fruits)
+    print(fruits) 
