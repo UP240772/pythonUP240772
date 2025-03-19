@@ -36,3 +36,9 @@ else:
 #Si la fruta no existe en la lista, se agrega e imprime la modificada
 #Si la fruta si existe, imprime que ya está en la lista
 fruits = ['banana', 'orange', 'mango', 'lemon']
+chckfruit = str(input("Agrega el nombre de una fruta en ingles: "))
+if chckfruit in fruits:
+    print("Esa fruta ya existe en la lista")
+else:
+    fruits.append(chckfruit)
+    print(fruits)
