@@ -29,3 +29,5 @@ print("Punto 6")
 ages=[19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 MinAge = (19 - Promedio)
 MaxAge= (26 - Promedio)
+
+print("Revisado")
