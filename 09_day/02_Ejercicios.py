@@ -4,4 +4,6 @@
 #60-69, C
 #50-59, D
 #0-49, F
-Calificacion = float(input("Ingresa tu calificacion"))
+Calificacion = int(input("Ingresa tu calificacion"))
+if Calificacion < 49:
+     print("Tu nota es F")
