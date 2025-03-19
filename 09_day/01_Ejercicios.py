@@ -1,13 +1,13 @@
 #Obtener la información del usuario mediante input(“Ingrese su edad:”). Si el usuario tiene 18 años o más, indique: Tiene edad suficiente para conducir. Si es menor de 18 años, indique que espere los años que faltan. Resultado:
-Edad = float(input("Ingrese su edad: "))
+Edad = int(input("Ingrese su edad: "))
 if Edad < 18:
     print("No tienes edad suficiente para aprender a conducir")
 else:
     print("Tienes la edad suficiente para aprender a conducir")
 
 #¿Quien es mayor?
-TuEdad = float(input("Ingresa tu edad: "))
-MiEdad= float(input("Ingresa tu edad: "))
+TuEdad = int(input("Ingresa tu edad: "))
+MiEdad= int(input("Ingresa tu edad: "))
 if MiEdad == TuEdad: 
     print("Tenemos la misma edad")
 elif MiEdad > TuEdad:
