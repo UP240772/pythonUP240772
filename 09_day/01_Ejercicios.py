@@ -17,8 +17,8 @@ elif MiEdad > TuEdad:
 else:
     print("El es", TuEdad - MiEdad, "años grande que tu")
 #Obtener 2 numeros del usuario
-a = float(input("Ingrese el primer numero: "))
-b = float(input("Ingrese el segundo numero: "))
+a = int(input("Ingrese el primer numero: "))
+b = int(input("Ingrese el segundo numero: "))
 if a < b:
     print("a es menor que b")
 elif a > b:
