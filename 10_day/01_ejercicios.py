@@ -65,4 +65,14 @@ for iterator in lista:
 conteo = 0
 while conteo < 101:
     print(conteo)
-    conteo = conteo + 1
+    conteo = conteo + 2
+
+#Utilice el bucle for para iterar de 0 a 100 e imprimir solo números impares
+conteo = 0
+num = 0
+while conteo < 101:
+    print(conteo)
+    if num % 2 == 0:
+        pass
+    else:
+        print(num)
