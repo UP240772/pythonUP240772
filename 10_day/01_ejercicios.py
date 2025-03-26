@@ -19,8 +19,8 @@ while contar >= 0:
     contar = contar - 1
 
 #Escriba un bucle que realice siete llamadas a print(), de modo que obtengamos en la salida el siguiente triángulo:
-for i in range(1, 8):
-    print('#' * i)
+for i in range(8):
+    print('# ' * i)
 
 #Use nested loops to create the following:
 # # # # # # # #
@@ -31,10 +31,11 @@ for i in range(1, 8):
 # # # # # # # #
 # # # # # # # #
 # # # # # # # #
-gato = "#"
-for i in range(8):
+gato = "# "
+for i in range(4):
     print(gato * i)
 
+#Imprima el siguiente patrón:
 #0 x 0 = 0
 #1 x 1 = 1
 #2 x 2 = 4
@@ -47,3 +48,21 @@ for i in range(8):
 #9 x 9 = 81
 #10 x 10 = 100
 
+i = 0
+contar = 0
+while contar < 11:
+    mult = i*i
+    print(i, "x", i, mult)
+    i = i + 1
+    contar = contar + 1
+
+#Itere a través de la lista, ['Python', 'Numpy', 'Pandas', 'Django', 'Flask'] usando un bucle for e imprima los elementos.
+lista = ['Python', 'Numpy', 'Pandas', 'Django', 'Flask']
+for iterator in lista:
+    print(lista)
+
+#Utilice el bucle for para iterar de 0 a 100 e imprimir solo números pares
+conteo = 0
+while conteo < 101:
+    print(conteo)
+    conteo = conteo + 1
