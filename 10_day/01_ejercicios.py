@@ -6,15 +6,15 @@ for number in numeros:
 contar = 0
 while contar < 11:
     print(contar)
-    contar = contar +1
+    contar = contar + 1
 
 #Itere de 10 a 0 usando el bucle for, haga lo mismo usando el bucle while.
 Numero = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 for number in Numero:
     print(number)
 
-contar = 0
-while contar > 11:
+contar = 11
+while contar > 0:
     print(contar)
     contar = contar - 1
 
