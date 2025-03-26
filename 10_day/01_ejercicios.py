@@ -70,9 +70,9 @@ while conteo < 101:
 #Utilice el bucle for para iterar de 0 a 100 e imprimir solo números impares
 conteo = 0
 num = 0
-while conteo < 101:
+for conteo in range(0, 101):
     print(conteo)
-    if num % 2 == 0:
+    if conteo % 2 == 0:
         pass
     else:
-        print(num)
+        print(conteo)
