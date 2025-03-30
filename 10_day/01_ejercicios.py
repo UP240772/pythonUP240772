@@ -62,17 +62,11 @@ for iterator in lista:
     print(lista)
 
 #Utilice el bucle for para iterar de 0 a 100 e imprimir solo números pares
-conteo = 0
-while conteo < 101:
-    print(conteo)
-    conteo = conteo + 2
+for numero in range(101):
+    if numero % 2 == 0:
+        print (numero)
 
 #Utilice el bucle for para iterar de 0 a 100 e imprimir solo números impares
-conteo = 0
-num = 0
-for conteo in range(0, 101):
-    print(conteo)
-    if conteo % 2 == 0:
-        pass
-    else:
-        print(conteo)
+for numero in range(101): 
+    if numero % 2 != 0:
+        print(numero)
