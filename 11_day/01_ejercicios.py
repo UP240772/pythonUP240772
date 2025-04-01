@@ -23,3 +23,25 @@ def add_all_nums (*args):
         total += arg
     return total
 
+#La temperatura en °C se puede convertir a °F usando esta fórmula: °F = (°C x 9/5) + 32. Escriba una función que convierta °C a °F, convert_celsius_to-fahrenheit .
+def convert_celsius_to_fahrenheit():
+    celcius = float(input("Ingresa la temperatura en grados Celcius: "))
+    Farenheit = (celcius * 1.8) + 32
+    print(Farenheit)
+print(convert_celsius_to_fahrenheit())
+
+#Escriba una función llamada check-season, toma un parámetro de mes y devuelve la temporada: Otoño, Invierno, Primavera o Verano
+Mes = str(input("Ingrese el mes: "))
+def ChecarTemporada():
+    if Mes in ["Septiembre", "Octubre", "Noviembre"]:
+        print("Otoño")
+    elif Mes in ["Diciembre", "Enero", "Febrero"]:
+        print("Invierno")
+    elif Mes in ["Marzo", "Abril", "Mayo"]:
+        print("Primavera")
+    elif Mes in ["Junio", "Julio", "Agosto"]:
+        print("Verano")
+    else:
+        print("No existe")
+
+#Escriba una función llamada calculate_slope que devuelva la pendiente de una ecuación lineal
