@@ -41,4 +41,4 @@ print(f"¿'{variable2}' es una variable válida?", es_variable_valida(variable2)
 variable3 = "for"
 print(f"¿'{variable3}' es una variable válida?", es_variable_valida(variable3))
 
-#
+print("revisado")

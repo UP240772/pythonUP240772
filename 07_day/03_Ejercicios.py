@@ -16,3 +16,4 @@ print("El set es una coleccion desordenada de elementos unicos")
 
 #¿Cuántas palabras únicas se han utilizado en la oración? Utilice los métodos de división y de configuración para obtener las palabras únicas.
 ##Soy profesor y me encanta inspirar y enseñar a la gente
+print("revisado")
