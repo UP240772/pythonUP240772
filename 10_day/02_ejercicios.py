@@ -15,3 +15,5 @@ for numero in range(101):
         SumaImpares += numero
 print("La suma de todos los pares es: ", SumaPares)
 print("La suma de todos los impares es: ", SumaImpares)
+
+print("revisado")

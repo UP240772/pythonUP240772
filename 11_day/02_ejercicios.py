@@ -54,3 +54,5 @@ print("Moda:", calcular_moda(datos))
 print("Rango:", calcular_rango(datos))
 print("Varianza:", calcular_varianza(datos))
 print("Desviación estándar:", calcular_desviacion_estandar(datos))
+
+print("revisado")

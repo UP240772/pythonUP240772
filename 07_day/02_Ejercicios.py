@@ -35,3 +35,5 @@ del A
 del B
 del AB
 del BA
+
+print("revisado")

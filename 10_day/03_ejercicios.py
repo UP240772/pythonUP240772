@@ -49,3 +49,5 @@ ordenados = sorted(aaa, key=lambda item: item['population'], reverse=True)
 print("Top 10 países más poblados:\n")
 for pais in ordenados[:10]:
     print(pais['name'], pais['population'])
+
+print("revisado") #"No se ejecuta, falta paises"

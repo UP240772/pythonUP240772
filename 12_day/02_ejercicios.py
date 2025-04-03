@@ -43,3 +43,5 @@ def generate_colors(type, n):
         print(lst)
     else:
         print("Enter type correctly")
+
+print("revisado")

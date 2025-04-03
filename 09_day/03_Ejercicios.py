@@ -38,3 +38,6 @@ if 'skills' in person:
 #    Asabeneh Yetayeh lives in Finland. He is married.
 if person.get('is_married') and person.get('country') == 'Finland':
     print(person["first_name"], person['last_name'], "lives", "in", person["country"], "He is married")
+
+
+print("revisado")

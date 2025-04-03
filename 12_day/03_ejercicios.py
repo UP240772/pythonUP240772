@@ -14,3 +14,5 @@ def seven_random():
             return lst
         n = random.randint(0, 10)
         s.add(n)
+
+#No hay salida de nada
