@@ -94,3 +94,5 @@ print(firsTen(countries))
 def LastTen (countries):
     return list(map(lambda x:x, countries[-10:]))
 print(LastTen(countries))
+
+print("revisado")

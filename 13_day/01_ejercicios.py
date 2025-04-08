@@ -41,3 +41,5 @@ print([name for row in names for tup in row for name in tup])
 #Escriba una función lambda que pueda resolver una pendiente o una intersección con el eje y de funciones lineales.
 def m(x1, y1, x2, y2): return (y2-y1)/(x2-x1)
 print(m(2, 2, 4, 8))
+
+print("revisado")
